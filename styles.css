@@ -450,6 +450,30 @@ h3 {
   box-shadow: var(--shadow-soft);
 }
 
+.contact-support {
+  display: grid;
+  gap: 20px;
+}
+
+.submission-tips {
+  padding: 22px;
+  background: #fff7e7;
+  border: 1px solid #f2d5a6;
+  border-radius: var(--radius);
+}
+
+.submission-tips h3 {
+  color: var(--color-primary-dark);
+}
+
+.submission-tips ul {
+  display: grid;
+  gap: 10px;
+  margin: 14px 0 0;
+  padding-left: 20px;
+  color: var(--color-muted);
+}
+
 .form-field {
   display: grid;
   gap: 8px;
